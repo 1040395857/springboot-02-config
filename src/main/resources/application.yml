@@ -1,0 +1,22 @@
+#激活环境
+#spring:
+#  profiles:
+#    active: dev2
+#修改项目访问路径
+#server:
+#  servlet:
+#    context-path: /boot
+#修改默认加载的文件位置
+#spring:
+#  config:
+#    location: com.oracle.springboot02config.pojo
+#spring:
+#  datasource:
+#    type:
+debug: true
+logging:
+  level:
+    com.oracle.springboot02config: trace
+server:
+  error:
+    path: templates/page/login.html
